@@ -15,7 +15,7 @@ services:
       context: ./Backend
       dockerfile: Dockerfile
     ports:
-      - "3000:3000" jj
+      - "3000:3000"
     environment:
       - DB=mongodb://mongo:27017/todo
     depends_on:
